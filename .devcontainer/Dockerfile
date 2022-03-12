@@ -2,7 +2,7 @@
 
 # [Choice] Ubuntu version (use hirsuite or bionic on local arm64/Apple Silicon): hirsute, focal, bionic
 ARG VARIANT="6.0"
-FROM mcr.microsoft.com/vscode/devcontainers/dotnet:${VARIANT}
+FROM mcr.microsoft.com/vscode/devcontainers/dotnet:0-${VARIANT}
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
